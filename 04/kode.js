@@ -61,3 +61,31 @@
 // }
 
 // console.log(bagi(10, 2));
+
+// menentukan bilangan apakah bil tersebut sama atau tidak dengan 10
+
+// let bilangan = Number(prompt("masukkan sebuah bilangan"));
+
+// if (bilangan == 10) {
+//   alert(bilangan + " sama dengan sepuluh");
+// } else {
+//   alert(bilangan + " tidak sama dengan sepuluh");
+// }
+
+// input gender (L/P)
+
+let gender = prompt("input gender (L/P");
+
+if (gender.toUpperCase() == "P") {
+  alert("Gender = perempuan");
+}
+
+if (gender.toUpperCase() == "L") {
+  alert("Gender = laki-laki");
+}
+
+// if (gender.toUpperCase() == "P") {
+//   alert("Gender = perempuan");
+// } else {
+//   alert("Gender = laki-laki");
+// }
